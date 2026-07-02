@@ -153,9 +153,9 @@ export default function Hero() {
               {/* Main Photo Wrapper */}
               <div className="absolute inset-4 overflow-hidden shadow-2xl bg-silk-200 border-4 border-silk-100 z-10 rounded-sm">
                 <img
-                  src="https://photos.1804078.xyz/42hu/dwm.webp"
+                  src="https://photos.1804078.xyz/42hu/dwm%20(1).webp"
                   alt="邓伟民 - 二胡演奏家"
-                  className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700 ease-out"
+                  className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700 ease-out"
                   referrerPolicy="no-referrer"
                 />
                 
