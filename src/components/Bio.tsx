@@ -76,8 +76,9 @@ export default function Bio() {
                   。在乐团期间，他以出色的领奏与协调能力，完美诠释了数十部大型民族管弦乐经典，带领乐团在世界级艺术殿堂精彩亮相，赢得了广泛赞誉。
                 </p>
                 <p>
-                  作为当代国乐的杰出代表，他现任
+                  作为当代国乐的杰出代表，他曾任
                   <span className="text-ink-950 font-semibold">中国民族管弦乐学会常务理事</span>、
+                  现任
                   <span className="text-ink-950 font-semibold">上海音乐家协会会员</span>
                   。多年来，他始终活跃在独奏舞台、学术讲坛及专业评审一线，致力于中国民族音乐的发展、传承与中外文化交流。
                 </p>
@@ -103,7 +104,7 @@ export default function Bio() {
                   <Compass className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="font-serif text-base font-bold text-ink-900">中国民族管弦乐学会 · 常务理事</h4>
+                  <h4 className="font-serif text-base font-bold text-ink-900">中国民族管弦乐学会 · 原常务理事</h4>
                   <p className="font-serif text-xs text-ink-600 mt-1 leading-relaxed">
                     作为国家级音乐协会决策骨干，积极参与中国传统民族管弦乐的学术研究、考级推广与全国性赛事活动评审。
                   </p>
