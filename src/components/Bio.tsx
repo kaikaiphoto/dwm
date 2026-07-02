@@ -184,7 +184,7 @@ export default function Bio() {
             {/* Inner frame */}
             <div className="relative overflow-hidden aspect-[16/10] md:aspect-[16/9] bg-silk-200 rounded-sm">
               <img
-                src="https://photos.1804078.xyz/42hu/dwm.webp"
+                src="https://photos.1804078.xyz/42hu/dwm.webp?v=2"
                 alt="邓伟民先生 - 二胡独奏"
                 className="w-full h-full object-cover object-center group-hover:scale-[1.03] transition-transform duration-1000 ease-out"
                 referrerPolicy="no-referrer"

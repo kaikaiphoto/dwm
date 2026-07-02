@@ -275,7 +275,7 @@ export default function Artistry() {
                       className="w-24 h-24 rounded-full bg-silk-200 border-2 border-gold-400 overflow-hidden flex items-center justify-center relative shadow-inner"
                     >
                       <img
-                        src="https://photos.1804078.xyz/42hu/dwm.webp"
+                        src="https://photos.1804078.xyz/42hu/dwm.webp?v=2"
                         alt="二胡黑胶盘面"
                         className="w-full h-full object-cover"
                         referrerPolicy="no-referrer"
