@@ -166,40 +166,7 @@ export default function Bio() {
 
         </div>
 
-        {/* Centered Master Portrait Showcase */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.8 }}
-          className="mt-16 lg:mt-24 max-w-4xl mx-auto"
-        >
-          <div className="relative group p-3 bg-silk-100 border border-silk-200/50 shadow-2xl rounded-sm overflow-hidden">
-            {/* Traditional Decorative Corner Markers */}
-            <div className="absolute top-1 left-1 w-3 h-3 border-t-2 border-l-2 border-gold-400" />
-            <div className="absolute top-1 right-1 w-3 h-3 border-t-2 border-r-2 border-gold-400" />
-            <div className="absolute bottom-1 left-1 w-3 h-3 border-b-2 border-l-2 border-gold-400" />
-            <div className="absolute bottom-1 right-1 w-3 h-3 border-b-2 border-r-2 border-gold-400" />
 
-            {/* Inner frame */}
-            <div className="relative overflow-hidden aspect-[16/10] md:aspect-[16/9] bg-silk-200 rounded-sm">
-              <img
-                src="https://photos.1804078.xyz/42hu/dwm.webp?v=2"
-                alt="邓伟民先生 - 二胡独奏"
-                className="w-full h-full object-cover object-center group-hover:scale-[1.03] transition-transform duration-1000 ease-out"
-                referrerPolicy="no-referrer"
-              />
-              {/* Subtle dark gradient overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-silk-50/80 via-transparent to-transparent opacity-60" />
-            </div>
-
-            {/* Elegant Caption Underneath */}
-            <div className="mt-4 text-center">
-              <p className="font-serif text-sm text-gold-600 tracking-widest font-semibold">邓伟民先生 · 执弓听风</p>
-              <p className="font-mono text-[9px] text-ink-600 mt-1 uppercase tracking-widest">Master Deng Weimin · Erhu Solo Performance</p>
-            </div>
-          </div>
-        </motion.div>
 
       </div>
     </section>
