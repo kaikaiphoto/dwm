@@ -1,0 +1,6 @@
+{
+  "name": "邓伟民二胡艺术家官方网站",
+  "description": "国家一级演奏员、二胡演奏家邓伟民先生的官方艺术主页。展示其艺术生涯、师承脉络、代表作品及艺术理念，融合现代简洁与传统中式美学。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

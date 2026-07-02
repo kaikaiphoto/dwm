@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;700;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Noto Serif SC", "Source Han Serif SC", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Premium Traditional Palace Red & Lacquer Dark Backgrounds */
+  --color-silk-50: #1a0607;     /* Elegant deep imperial red lacquer background */
+  --color-silk-100: #26090a;    /* Alternating section background */
+  --color-silk-200: #3d0f11;    /* Traditional cinnabar dark border color */
+  --color-silk-300: #541417;    /* Cards and highlights background */
+  
+  /* Luminous Warm-Gold Accents */
+  --color-gold-300: #f5dfb0;
+  --color-gold-400: #cca75c;
+  --color-gold-500: #b08d42;
+  --color-gold-600: #947330;
+  --color-gold-700: #785a21;
+
+  /* Inverted Text Colors (Warm Silk-Creams for excellent contrast on red lacquer) */
+  --color-ink-950: #ffffff;
+  --color-ink-900: #faf6f0;     /* Display Headings and Primary titles */
+  --color-ink-800: #ebd9cb;     /* Body copy */
+  --color-ink-700: #d4bfb0;     /* Muted text and list items */
+  --color-ink-600: #a38c7d;     /* Captions and labels */
+}
+
+/* Custom scrollbar and aesthetics */
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-silk-50);
+  color: var(--color-ink-900);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-silk-50);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-silk-200);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold-400);
+}
+
+/* Custom Chinese calligraphy styling */
+.writing-vertical {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.text-justify-chinese {
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
+/* Subtle background grain or textures */
+.bg-silk-grain {
+  background-image: radial-gradient(rgba(204, 167, 92, 0.02) 1px, transparent 0);
+  background-size: 32px 32px;
+}
+
