@@ -66,7 +66,7 @@ export default function Bio() {
               <div className="font-serif text-base text-ink-700 space-y-6 leading-relaxed text-justify-chinese">
                 <p>
                   <span className="font-bold text-ink-900 text-lg">邓伟民先生</span>，
-                  我国杰出的二胡演奏家，国家
+                  我国杰出的二胡演奏家，
                   <span className="text-gold-600 font-semibold border-b border-gold-400/30">一级演奏员</span>。
                   他以炉火纯青的演奏技艺、深邃宽广的音乐情怀、极富感染力的舞台表现，在当代中国民族器乐领域享有崇高声誉。
                 </p>

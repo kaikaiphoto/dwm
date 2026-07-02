@@ -35,7 +35,7 @@ export default function Footer() {
             </div>
           </div>
           <p className="font-serif text-[10px] text-silk-400 max-w-sm leading-relaxed">
-            国家一级演奏员 · 中国民族管弦乐学会常务理事
+            一级演奏员 · 中国民族管弦乐学会原常务理事
             <br />
             官方备案艺术官方主页 · 上海民族乐团前乐队首席
           </p>

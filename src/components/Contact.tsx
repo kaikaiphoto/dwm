@@ -126,7 +126,7 @@ export default function Contact() {
                   <p className="font-serif text-xs text-ink-800 leading-relaxed mt-1">
                     中国民族管弦乐学会（常务理事单位）
                     <br />
-                    国家一级演奏员艺术成果保护备案
+                    一级演奏员艺术成果保护备案
                   </p>
                 </div>
               </div>

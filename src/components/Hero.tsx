@@ -38,7 +38,7 @@ export default function Hero() {
             >
               <Award className="w-4 h-4" />
               <span className="font-serif text-xs font-medium tracking-widest uppercase">
-                国家一级演奏员
+                一级演奏员
               </span>
             </motion.div>
 
@@ -72,6 +72,15 @@ export default function Hero() {
                 <Music2 className="w-4 h-4 text-gold-500 mb-1 lg:mb-2" />
                 <span className="font-serif text-sm font-semibold text-ink-900 tracking-wide">
                   中国民族管弦乐学会
+                </span>
+                <span className="font-serif text-xs text-ink-600 mt-1">
+                  原常务理事
+                </span>
+              </div>
+               <div className="flex flex-col items-center lg:items-start p-2 hover:bg-silk-100/50 rounded transition-colors duration-300">
+                <Award className="w-4 h-4 text-gold-500 mb-1 lg:mb-2" />
+                <span className="font-serif text-sm font-semibold text-ink-900 tracking-wide">
+                  民管会二胡专业委员会
                 </span>
                 <span className="font-serif text-xs text-ink-600 mt-1">
                   常务理事

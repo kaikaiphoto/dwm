@@ -72,7 +72,7 @@ export default function Philosophy() {
             <div className="mt-8 border-t border-silk-200 pt-6">
               <p className="font-serif text-sm font-bold text-ink-900">— 邓伟民</p>
               <p className="font-serif text-xs text-ink-600 mt-1 uppercase tracking-widest">
-                国家一级演奏员 · 艺术思考
+                一级演奏员 · 艺术思考
               </p>
             </div>
           </div>
